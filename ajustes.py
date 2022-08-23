@@ -1,5 +1,3 @@
-# El programa que le re debo a Javi-javito
-
 
 ### defino las bibliotecas a usar
 from re import L
