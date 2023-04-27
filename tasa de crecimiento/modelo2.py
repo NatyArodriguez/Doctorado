@@ -529,7 +529,7 @@ for t in range(1,dias):
     paso_d[int(t)]   = t
     h = 1.
         
-    G_T[t]	=  bite_rate*theta_T(Tmean[t])*MIObv * v[6] * v[11]/poblacion
+    G_T[t]	=  bite_rate*theta_T(Tmean[t])*MIObv * v[8] * v[9]/poblacion
     F_T[t] = bite_rate*theta_T(Tmean[0]) * MIObh * v[8] * v[6]/poblacion
         
     sigma_V     =	1./(1. + (0.1216*Tmean[int(t)]*Tmean[int(t)] - 8.66*Tmean[int(t)] + 154.79) )
