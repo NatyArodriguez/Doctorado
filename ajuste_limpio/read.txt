@@ -1,0 +1,5 @@
+Funciones: contiene los valores de los parámetros a utilizar y las definiciones de las funciones.
+ajuste_inicial : programa para ir ajustando ajustando año por año.
+Ajustado: programa para obtener los resultados de la simulación.
+Modelado: ahí estaba jugando con los valores de kmax.
+Carpeta ajuste_previo: En esa carpeta esta el programa anterior que utilizo para ajustar los parámetros de cada año de una sola vez (no lo limpie)
