@@ -10,14 +10,14 @@ tipic_rain = pd.read_csv('tipic_rain.txt', sep='\t')
 #tabla de datos de alpha historico
 tipic_alpha = fn.hystoric_al
 
-#De oran_historico voy a usar la tmean, hum, tmin
+#De oran_medio voy a usar la tmean, hum, tmin
 oran_medio = fn.df_medio #-->2001-2017
 
 #me voy a solucionar la vida y volaron los años bisiestos
 df_oran = oran_medio[~((oran_medio.index.month == 2) & (oran_medio.index.day == 29))]
 indices = df_oran.index
 
-temporada = ['2001-01-01', '2008-12-31'] #temporada total de datos desde el 07 al 17
+temporada = ['2001-01-01', '2008-12-31'] #temporada total de datos
 suma_casos = ['2007-07-01', '2008-06-30'] #en que periodo de tiempo deseamos obtener la cantidad total de nuevos casos
 ci_sim = np.arange('2007-07-01','2008-06-30',dtype='datetime64[D]') #rango de ingreso de los casos importados
 
